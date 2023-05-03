@@ -10,8 +10,8 @@
 ## Lancer le site Web  
 
 * Il faut dans un premier temps cloner le référentiel :  
-` git clone git@github.com<utilisateur>/docker-sae203.git `  
-Avec comme <utilisateur> le nom de votre utilisateur  
+` git clone git@github.com<nom_utilisateur>/docker-sae203.git `  
+Avec comme <nom_utilisateur> le nom de votre utilisateur  
   
 * Nous allons créer le docker avec la commande suivante :  
 ` docker build -t jellyfin-server C:\Users\<nom_utilisateur>\docker `  
