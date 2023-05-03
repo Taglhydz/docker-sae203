@@ -6,6 +6,9 @@ Maxime BOUJU
 # SAE-2.03                                                                                                           Groupe 15
 ------------------------------------------------------------------------------------------------------------------------------
 ## Service de vidéo à la demande
+### Introduction
+
+Notre projet consiste à créer un site de vidéo à la demande avec l'aide de jellyfin
 ### Installation du Docker  
 
 * Pour vérifier que Docker soit bien installé, on effectue la commande suivante dans le terminal :  
