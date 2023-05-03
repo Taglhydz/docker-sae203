@@ -1,13 +1,14 @@
 # SAE-2.03                                                                                                           Groupe 15
 ------------------------------------------------------------------------------------------------------------------------------
-## Installation du Docker  
+## Service de vidéo à la demande
+### Installation du Docker  
 
 * Pour vérifier que Docker soit bien installé, on effectue la commande suivante dans le terminal :  
 ` docker --version `  
   
   Nous devons alors voir la version du Docker que nous utilisons.  
   
-## Lancer le site Web  
+### Lancer le site Web  
 
 * Il faut dans un premier temps cloner le référentiel :  
 ` git clone git@github.com<nom_utilisateur>/docker-sae203.git `  
