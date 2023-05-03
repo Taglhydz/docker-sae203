@@ -1,7 +1,7 @@
 # SAE-2.03                                                                                                           Groupe 15
 ------------------------------------------------------------------------------------------------------------------------------
-## Installation du Dockerfile  
+## Installation du Docker  
 
-* Avant l'installation du Dockerfile, on vérifie que Docker est bien installé avec la commande suivante :  
+* Pour vérifier si Docker soit bien installé, on effectue la commande suivante :  
 ` docker --version `  
 * 
