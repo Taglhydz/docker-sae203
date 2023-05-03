@@ -21,6 +21,9 @@ Notre projet doit utiliser un Dockerfile.
   
 ### Lancer le site Web  
 
+* Placez-vous dans votre répertoire d'utilisateur, afin de faciliter les commandes suivantes 
+*exemple : C:/Users/Tom*
+
 * Il faut dans un premier temps cloner le référentiel :  
 ` git clone git@github.com<nom_utilisateur>/docker-sae203.git `  
 Avec comme <nom_utilisateur> le nom de votre utilisateur  
