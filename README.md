@@ -8,7 +8,10 @@ Maxime BOUJU
 ## Service de vidéo à la demande
 ### Introduction
 
-Notre projet consiste à créer un site de vidéo à la demande avec l'aide de jellyfin
+Notre projet consiste à créer un site de vidéo à la demande avec l'aide de jellyfin, qui est un open source.
+Notre projet doit partir de la base officielle de debian, c’est-à-dire que la première ligne du Dockerfile devrait être ` FROM debian:latest `
+Notre projet doit utiliser un Dockerfile.
+
 ### Installation du Docker  
 
 * Pour vérifier que Docker soit bien installé, on effectue la commande suivante dans le terminal :  
