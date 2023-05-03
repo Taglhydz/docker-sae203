@@ -13,15 +13,12 @@
 ` git clone git@github.com<utilisateur>/docker-sae203.git `  
 Avec comme <utilisateur> le nom de votre utilisateur  
   
-* Nous allons créer le docker avec la commande suivante :   
- 
+* Nous allons créer le docker avec la commande suivante :  
 ` docker build -t jellyfin-server C:\Users\<nom_utilisateur>\docker `  
 Avec comme <nom_utilisateur> votre nom d'utilisateur  
   
 * Ensuite il faut exécuter la commande pour lancer le docker  
-
 ` docker run -d --name SAEG15 -p 8096:8096 -v C:\Users\<nom_utilisateur>\docker\bande_annonce:\bande_annonce jellyfin-server `  
   
-* Enfin lancer une page web et insérer l'URL :  
+* Enfin lancer une page web et insérer l'URL :   
   ` localhost:8096 `  
-  
