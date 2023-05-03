@@ -19,7 +19,7 @@ Avec comme <nom_utilisateur> le nom de votre utilisateur
 Avec comme <nom_utilisateur> votre nom d'utilisateur  
   
 * Ensuite il faut exécuter la commande pour lancer le docker  
-` docker run -d --name SAEG15 -p 8096:8096 -v C:\Users\<nom_utilisateur>\docker\bande_annonce:\bande_annonce jellyfin-server `  
+` docker run -d --name SAEG15 -p 8096:8096 -v C:\Users\<nom_utilisateur>\docker\data:/var/lib/jellyfin -v C:\Users\<nom_utilisateur>\docker\cache:/var/cache/jellyfin -v C:\Users\<nom_utilisateur>\docker\bande_annonce:/bande_annonce jellyfin-server `  
   
 * Enfin lancer une page web et insérer l'URL :   
   ` localhost:8096 `  
