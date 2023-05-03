@@ -1,3 +1,8 @@
+Quentin LAPARRE
+Tom VAILLANT
+Maxime BOUJU
+
+
 # SAE-2.03                                                                                                           Groupe 15
 ------------------------------------------------------------------------------------------------------------------------------
 ## Service de vidéo à la demande
@@ -22,4 +27,6 @@ Avec comme <nom_utilisateur> votre nom d'utilisateur
 ` docker run -d --name SAEG15 -p 8096:8096 -v C:\Users\<nom_utilisateur>\docker\data:/var/lib/jellyfin -v C:\Users\<nom_utilisateur>\docker\cache:/var/cache/jellyfin -v C:\Users\<nom_utilisateur>\docker\bande_annonce:/bande_annonce jellyfin-server `  
   
 * Enfin lancer une page web et insérer l'URL :   
-  ` localhost:8096 `  
+  ` localhost:8096 `
+  
+* Il est important de rentrer "Groupe 15" dans le nom d'utilisateur lorsque le site est lancé.
