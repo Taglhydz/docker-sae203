@@ -21,7 +21,7 @@ Notre projet doit utiliser un Dockerfile.
   
 ### Lancer le site Web  
 
-* Placez-vous dans votre répertoire d'utilisateur, afin de faciliter les commandes suivantes 
+* Placez-vous dans votre répertoire d'utilisateur, afin de faciliter les commandes suivantes   
 *exemple : C:/Users/Tom*
 
 * Il faut dans un premier temps cloner le référentiel :  
