@@ -2,6 +2,6 @@
 ------------------------------------------------------------------------------------------------------------------------------
 ## Installation du Docker  
 
-* Pour vérifier si Docker soit bien installé, on effectue la commande suivante :  
+* Pour vérifier que Docker soit bien installé, on effectue la commande suivante :  
 ` docker --version `  
 * 
