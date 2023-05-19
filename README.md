@@ -3,8 +3,19 @@ Tom VAILLANT
 Maxime BOUJU
 
 
-# SAE-2.03                                                                                                           Groupe 15
+# Projet SAE 2.03 Equipe 15                                                                                                         
 ------------------------------------------------------------------------------------------------------------------------------
+
+## Lancer notre site Web :
+------------------------------------------------------------------------------------------------------------------------------
+
+## Membres de L'équipe
+
+* Groupe D - Quentin LAPARRE
+* Groupe B - Tom VAILLANT
+* Groupe B - Maxime BOUJU
+
+
 ## Service de vidéo à la demande
 ### Introduction
 
