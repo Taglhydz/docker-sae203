@@ -1,15 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" contente="IE=edge">
-            <meta name= "viewport" contente="width=device-width, initial-scale=1.0">
+<html>
+<head>
+    <title>Projet SAE 2.03 Equipe 15</title>
+</head>
+<body>
+    <h1>Projet SAE 2.03 Equipe 15</h1>
 
-            <title> SAE 203 </title>
-            
-    </head>
+    <h2>Lancer notre site Web :</h2>
 
-    <body>
-        <h1>SAE 203</h1>
-    </body>
+    <h3>Membres de l'équipe</h3>
+    <ul>
+        <li>Groupe D - Quentin LAPARRE</li>
+        <li>Groupe B - Tom VAILLANT</li>
+        <li>Groupe B - Maxime BOUJU</li>
+    </ul>
+
+    <h2>Service de vidéo à la demande</h2>
+    <h3>Introduction</h3>
+    <p>
+        Notre projet consiste à créer un site de vidéo à la demande avec l'aide de Jellyfin, qui est un open source.
+        Notre projet doit partir de la base officielle de Debian, c'est-à-dire que la première ligne du Dockerfile devrait être <code>FROM debian:latest</code>.
+        Notre projet doit utiliser un Dockerfile.
+    </p>
+
+    <h3>Installation du Docker</h3>
+    <p>
+        Pour vérifier que Docker soit bien installé, on effectue la commande suivante dans le terminal :
+        <code>docker --version</code>.
+        Nous devons alors voir la version du Docker que nous utilisons.
+    </p>
+
+    <h3>Lancer le site Web</h3>
+    <ol>
+        <li>Placez-vous dans votre répertoire d'utilisateur, afin de faciliter les commandes suivantes.
+            <br>Exemple : C:/Users/Tom</li>
+        <li>Il faut dans un premier temps cloner le référentiel :
+            <br><code>git clone git@github.com&lt;nom_utilisateur&gt;/docker-sae203.git</code>
+            <br>Avec comme &lt;nom_utilisateur&gt; le nom de votre utilisateur</li>
+        <li>Nous allons créer le docker avec la commande suivante :
+            <br><code>docker build -t jellyfin-server C:\Users\<nom_utilisateur>\docker</code>
+            <br>Avec comme &lt;nom_utilisateur&gt; votre nom d'utilisateur</li>
+        <li>Ensuite, il faut exécuter la commande pour lancer le docker :
+            <br><code>docker run -d --name SAEG15 -p 8096:8096 -v C:\Users\<nom_utilisateur>\docker\data:/var/lib/jellyfin -v C:\Users\<nom_utilisateur>\docker\cache:/var/cache/jellyfin -v C:\Users\<nom_utilisateur>\docker\bande_annonce:/bande_annonce jellyfin-server</code></li>
+        <li>Enfin, lancez une page web et insérez l'URL :
+            <br><code>localhost:8096</code></li>
+        <li>Il est important de rentrer "Groupe 15" dans le nom d'utilisateur lorsque le site est lancé.</li>
+    </ol>
+</body>
 </html>
