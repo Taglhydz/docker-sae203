@@ -9,8 +9,8 @@
 ## Membres de L'équipe
 
 * Groupe D - Quentin LAPARRE
-* Groupe B - Tom VAILLANT
-* Groupe B - Maxime BOUJU
+* Groupe B1 - Tom VAILLANT
+* Groupe B2 - Maxime BOUJU
 
 
 ## Service de vidéo à la demande
