@@ -1,6 +1,3 @@
-Quentin LAPARRE
-Tom VAILLANT
-Maxime BOUJU
 
 
 # Projet SAE 2.03 Equipe 15                                                                                                         
